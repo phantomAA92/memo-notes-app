@@ -72,4 +72,7 @@ yarn preview
 bun run preview
 ```
 
+## Site Url
+https://notes-manange-app.vercel.app/
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
