@@ -144,7 +144,6 @@ const login = async () => {
   if (user.value.email.trim() || user.value.password.trim()) {
     try {
       const data = await authenticateUser(user.value);
-      console.log("data: ", data);
       // redirect to homepage if user is authenticated
       const error = data?.error?.value;
       if (authenticated.value) {
