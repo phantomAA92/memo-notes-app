@@ -145,7 +145,6 @@ const login = async () => {
     try {
       const data = await authenticateUser(user.value);
       // redirect to homepage if user is authenticated
-      const error = data?.error?.value;
       if (authenticated.value) {
         toast.add({
           severity: "success",
