@@ -73,6 +73,6 @@ bun run preview
 ```
 
 ## Site Url
-https://notes-manange-app.vercel.app/
+https://memo-notes-app.vercel.app/
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
